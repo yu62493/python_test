@@ -15,8 +15,8 @@ data = urllib.parse.urlencode(values)
 req= urllib.request.Request(url, data.encode('utf-8'))
 response = urllib.request.urlopen(req)
 
-file1=open("D:\\qq.txt","w")
-for line in response.read().decode('CP950'):
+file1=open("qq.txt","w")
+for line in response.read().decode('ISO-8859-1'):
     if len(line)>0:
         file1.writelines(line)
 file1.close()
