@@ -1,9 +1,7 @@
-#encoding: utf-8
-print("hello")
+a = 1
+b = 2
+c = a + b
+print(type(c))
 
-x =3 
-x +=2
-x -= 1
+x = input("input")
 print(x)
-x,y = 99.99,5
-print(x,y)

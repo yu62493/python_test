@@ -1,0 +1,1 @@
+c:\users\yu624\appdata\local\programs\python\python35-32\python.exe %1
